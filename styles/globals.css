@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* react-date-range | hide static ranges wrapper */
+.rdrDefinedRangesWrapper {
+  display: none;
+}
+
+/* filter section styles */
+@layer components {
+  .filter-button {
+    @apply m-2 px-4 py-2 border rounded-full shadow-sm cursor-pointer hover:shadow-md active:scale-95 active:bg-gray-100 transition ease-out;
+  }
+}

@@ -50,8 +50,8 @@ export default function Home({ exploreData, cardsData }) {
             buttonText="Get Inspired"
           />
         </section>
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
